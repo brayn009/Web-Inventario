@@ -10,7 +10,7 @@
     {id:'p8', nombre:'Berro Pequeño', precio:225.00, stock:40},
     {id:'p9', nombre:'Betamil', precio:210.00, stock:40},
     {id:'p10', nombre:'Biotin', precio:0, stock:40},
-    {id:'p11', nombre:'Borosol P.', precio:160.00, stock:40},
+    {id:'p11', nombre:'Borosol Polvo.', precio:160.00, stock:40},
     {id:'p12', nombre:'Borosol Liquido', precio:190.00, stock:40},
     {id:'p13', nombre:'Botella', precio:450.00, stock:40},
     {id:'p14', nombre:'Bromisol', precio:0, stock:40},
@@ -58,26 +58,26 @@
     {id:'p56', nombre:'R44 Vendedor', precio:240.00, stock:40},
     {id:'p57', nombre:'Rabano y Cebolla', precio:210.00, stock:40},
     {id:'p58', nombre:'Reurin', precio:320.00, stock:40},
-    {id:'p59', nombre:'Romp. P.', precio:210.00, stock:40},
+    {id:'p59', nombre:'Rompe Pecho', precio:210.00, stock:40},
     {id:'p60', nombre:'Sabila', precio:250.00, stock:40},
     {id:'p61', nombre:'Siglo 22', precio:375.00, stock:40},
     {id:'p62', nombre:'Solongo', precio:170.00, stock:40},
     {id:'p63', nombre:'Tratamiento', precio:200.00, stock:40},
     {id:'p64', nombre:'Uren', precio:0, stock:40},
-    {id:'p65', nombre:'V.E', precio:650.00, stock:40},
-    {id:'p66', nombre:'V.E en Pote', precio:0, stock:40},
-    {id:'p67', nombre:'V.D3', precio:0, stock:40},
+    {id:'p65', nombre:'Vitamina E', precio:650.00, stock:40},
+    {id:'p66', nombre:'Vitamina E en Pote', precio:0, stock:40},
+    {id:'p67', nombre:'Vitamina D3', precio:0, stock:40},
     {id:'p68', nombre:'Vacelina / Cola de Caballo', precio:240.00, stock:40},
     {id:'p69', nombre:'Vaginol', precio:140.00, stock:40},
     {id:'p70', nombre:'Vigoricout', precio:190.00, stock:40},
     {id:'p71', nombre:'Vip Vaporub', precio:0, stock:40},
-    {id:'p72', nombre:'Yombimen', precio:0, stock:40},
+    {id:'p72', nombre:'Yombimen', precio:500.00, stock:40},
     {id:'p73', nombre:'Zinc', precio:0, stock:40}
   ];
 
   const db = window.inventarioDB;
   let productos = [];
-  let carrito = {}; // { id: cantidad }
+  let carrito = {}; 
   let editandoId = null;
 
   const fmt = n => 'RD$' + Number(n).toLocaleString('es-DO', {
